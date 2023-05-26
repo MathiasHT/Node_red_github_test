@@ -1,1 +1,55 @@
-[]
+[
+    {
+        "id": "47fef9e3f9874ddc",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "09911d2feffe4794",
+        "type": "inject",
+        "z": "47fef9e3f9874ddc",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Hello Github",
+        "payloadType": "str",
+        "x": 230,
+        "y": 160,
+        "wires": [
+            [
+                "5beb07cad83992fe"
+            ]
+        ]
+    },
+    {
+        "id": "5beb07cad83992fe",
+        "type": "debug",
+        "z": "47fef9e3f9874ddc",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 160,
+        "wires": []
+    }
+]
